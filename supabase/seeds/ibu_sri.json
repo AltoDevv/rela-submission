@@ -1,0 +1,362 @@
+{
+  "elder_id": "e0000000-0000-0000-0000-000000000001",
+  "volunteer_id": "c0000000-0000-0000-0000-000000000001",
+  "note": "Disetujui tim pada T-009 (2026-10-14). ai_result seed = final_result (AI dianggap benar, relawan tidak mengoreksi).",
+  "visits": [
+    {
+      "id": "d0000000-0000-0000-0000-000000000001",
+      "visited_at": "2026-09-01T10:00:00+07:00",
+      "answers": {
+        "makan": "Pas saya datang Ibu lagi makan siang, nasi sayur bening sama tempe goreng, habis satu piring. Katanya masak sendiri tadi pagi.",
+        "obat": "Obat darah tinggi sama obat gulanya udah diminum tadi pagi. Ibu nunjukin kotak obat mingguannya, isinya pas sesuai hari.",
+        "gerak": "Ibu jalan sendiri ke halaman buat nyiram tanaman cabai, jalannya lancar nggak pakai pegangan.",
+        "harian": "Mandi, ganti baju, ke kamar mandi semuanya sendiri. Rumahnya juga rapi.",
+        "ingatan": "Ngobrolnya nyambung, Ibu masih ingat nama saya dan cerita sinetron semalam.",
+        "hati": "Ibu kelihatan senang, banyak ketawa, cerita cabainya mulai berbuah.",
+        "lain": "Nggak ada keluhan. Habis itu kami nonton TV bareng sebentar."
+      },
+      "final_result": {
+        "makan": {
+          "level": 0,
+          "evidence": "habis satu piring"
+        },
+        "obat": {
+          "level": 0,
+          "evidence": "isinya pas sesuai hari"
+        },
+        "gerak": {
+          "level": 0,
+          "evidence": "jalannya lancar nggak pakai pegangan"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "semuanya sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "masih ingat nama saya"
+        },
+        "hati": {
+          "level": 0,
+          "evidence": "banyak ketawa"
+        },
+        "umum": {
+          "level": 0,
+          "evidence": "Nggak ada keluhan"
+        },
+        "red_flags": []
+      }
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000002",
+      "visited_at": "2026-09-08T10:00:00+07:00",
+      "answers": {
+        "makan": "Ibu masak sayur asem, makannya lahap sampai nambah sedikit.",
+        "obat": "Obat pagi udah diminum. Malah Ibu yang ngingetin saya kalau jam 7 malam ada obat lagi.",
+        "gerak": "Ibu jongkok mindahin pot ke teras sendiri, bangunnya juga gampang.",
+        "harian": "Pas saya datang Ibu udah mandi dan dandan rapi.",
+        "ingatan": "Ibu cerita resep sayur asem lengkap sama takarannya.",
+        "hati": "Ibu semangat, katanya senang ada yang diajak ngobrol.",
+        "lain": "Badannya sehat katanya. Kami nyiram tanaman bareng."
+      },
+      "final_result": {
+        "makan": {
+          "level": 0,
+          "evidence": "makannya lahap"
+        },
+        "obat": {
+          "level": 0,
+          "evidence": "Obat pagi udah diminum"
+        },
+        "gerak": {
+          "level": 0,
+          "evidence": "bangunnya juga gampang"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "udah mandi dan dandan rapi"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "cerita resep sayur asem lengkap"
+        },
+        "hati": {
+          "level": 0,
+          "evidence": "Ibu semangat"
+        },
+        "umum": {
+          "level": 0,
+          "evidence": "Badannya sehat katanya"
+        },
+        "red_flags": []
+      }
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000003",
+      "visited_at": "2026-09-15T10:00:00+07:00",
+      "answers": {
+        "makan": "Makan siangnya pepes ikan buatan Ibu, habis.",
+        "obat": "Kotak obatnya rapi, kolom hari ini udah kosong berarti udah diminum.",
+        "gerak": "Ibu nganter saya sampai pagar, jalannya biasa aja.",
+        "harian": "Ibu nyuci baju sendiri tadi pagi.",
+        "ingatan": "Ibu ingat saya janji bawain bibit tomat minggu lalu.",
+        "hati": "Ibu agak sepi hari ini, katanya kangen anaknya, tapi masih mau ngobrol.",
+        "lain": "Nggak ada keluhan. Kami nonton berita siang bareng."
+      },
+      "final_result": {
+        "makan": {
+          "level": 0,
+          "evidence": "pepes ikan buatan Ibu, habis"
+        },
+        "obat": {
+          "level": 0,
+          "evidence": "kolom hari ini udah kosong"
+        },
+        "gerak": {
+          "level": 0,
+          "evidence": "jalannya biasa aja"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "nyuci baju sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "ingat saya janji bawain bibit tomat"
+        },
+        "hati": {
+          "level": 1,
+          "evidence": "tapi masih mau ngobrol"
+        },
+        "umum": {
+          "level": 0,
+          "evidence": "Nggak ada keluhan"
+        },
+        "red_flags": []
+      }
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000004",
+      "visited_at": "2026-09-22T10:00:00+07:00",
+      "answers": {
+        "makan": "Ibu makan nasi sama telur dadar, habis kok.",
+        "obat": "Obatnya diminum teratur, kotak obatnya sesuai hari.",
+        "gerak": "Kemarin Ibu masih ke pasar dekat rumah jalan kaki.",
+        "harian": "Masak, mandi, beres-beres masih sendiri.",
+        "ingatan": "Ibu ingat jadwal kontrol ke puskesmas minggu depan.",
+        "hati": "Ibu agak pendiam hari ini, lebih banyak nonton TV, tapi senyum pas saya datang.",
+        "lain": "Nggak ada keluhan. Bibit tomat yang saya bawa sudah ditanam."
+      },
+      "final_result": {
+        "makan": {
+          "level": 0,
+          "evidence": "habis kok"
+        },
+        "obat": {
+          "level": 0,
+          "evidence": "kotak obatnya sesuai hari"
+        },
+        "gerak": {
+          "level": 0,
+          "evidence": "masih ke pasar dekat rumah jalan kaki"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "beres-beres masih sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "ingat jadwal kontrol ke puskesmas"
+        },
+        "hati": {
+          "level": 1,
+          "evidence": "agak pendiam hari ini"
+        },
+        "umum": {
+          "level": 0,
+          "evidence": "Nggak ada keluhan"
+        },
+        "red_flags": []
+      }
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000005",
+      "visited_at": "2026-09-29T10:00:00+07:00",
+      "answers": {
+        "makan": "Ibu cuma makan setengah piring, katanya kurang selera.",
+        "obat": "Obat pagi sama malam kemarin diminum semua, kotaknya kosong sesuai hari.",
+        "gerak": "Jalannya agak pelan, kalau ke dapur sambil pegangan meja.",
+        "harian": "Mandi dan ganti baju masih sendiri.",
+        "ingatan": "Ngobrolnya masih nyambung, Ibu ingat nama tetangga yang baru pindah.",
+        "hati": "Ibu tenang, tapi nggak banyak cerita kayak dulu.",
+        "lain": "Ibu bilang lagi kurang fit, jadi tanamannya belum disiram dua hari."
+      },
+      "final_result": {
+        "makan": {
+          "level": 1,
+          "evidence": "cuma makan setengah piring"
+        },
+        "obat": {
+          "level": 0,
+          "evidence": "kotaknya kosong sesuai hari"
+        },
+        "gerak": {
+          "level": 1,
+          "evidence": "sambil pegangan meja"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "Mandi dan ganti baju masih sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "Ngobrolnya masih nyambung"
+        },
+        "hati": {
+          "level": 1,
+          "evidence": "nggak banyak cerita kayak dulu"
+        },
+        "umum": {
+          "level": 1,
+          "evidence": "lagi kurang fit"
+        },
+        "red_flags": []
+      }
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000006",
+      "visited_at": "2026-10-06T10:00:00+07:00",
+      "answers": {
+        "makan": "Makannya masih sedikit, nasinya sisa separuh.",
+        "obat": "Obat malam kemarin kelupaan, di kotaknya masih ada. Pagi ini sudah diminum.",
+        "gerak": "Jalan di dalam rumah masih pegangan tembok.",
+        "harian": "Mandi, ganti baju, ke kamar mandi masih bisa sendiri.",
+        "ingatan": "Ibu ingat saya mau datang hari ini, sudah nyiapin teh.",
+        "hati": "Ibu kalem, lebih banyak diam sambil nonton TV.",
+        "lain": "Masih agak kurang fit katanya, tapi nggak ada keluhan baru."
+      },
+      "final_result": {
+        "makan": {
+          "level": 1,
+          "evidence": "nasinya sisa separuh"
+        },
+        "obat": {
+          "level": 1,
+          "evidence": "Obat malam kemarin kelupaan"
+        },
+        "gerak": {
+          "level": 1,
+          "evidence": "masih pegangan tembok"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "masih bisa sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "Ibu ingat saya mau datang hari ini"
+        },
+        "hati": {
+          "level": 1,
+          "evidence": "lebih banyak diam sambil nonton TV"
+        },
+        "umum": {
+          "level": 1,
+          "evidence": "Masih agak kurang fit"
+        },
+        "red_flags": []
+      }
+    }
+  ],
+  "story7": {
+    "perlu_perhatian": {
+      "answers": {
+        "makan": "Ibu cuma makan beberapa suap, katanya lagi nggak nafsu.",
+        "obat": "Obat tadi pagi belum diminum, Ibu lupa. Saya ingetin terus diminum.",
+        "gerak": "Jalannya masih pelan pegangan tembok.",
+        "harian": "Mandi sama ganti baju masih sendiri.",
+        "ingatan": "Ngobrolnya masih nyambung.",
+        "hati": "Ibu kelihatan capek, nggak banyak ngomong.",
+        "lain": "Katanya masih kurang fit, tanaman cabainya mulai layu nggak keurus."
+      },
+      "final_result": {
+        "makan": {
+          "level": 2,
+          "evidence": "cuma makan beberapa suap"
+        },
+        "obat": {
+          "level": 1,
+          "evidence": "Obat tadi pagi belum diminum"
+        },
+        "gerak": {
+          "level": 1,
+          "evidence": "pelan pegangan tembok"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "Mandi sama ganti baju masih sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "Ngobrolnya masih nyambung"
+        },
+        "hati": {
+          "level": 1,
+          "evidence": "nggak banyak ngomong"
+        },
+        "umum": {
+          "level": 1,
+          "evidence": "masih kurang fit"
+        },
+        "red_flags": []
+      }
+    },
+    "segera_dikabari": {
+      "answers": {
+        "makan": "Ibu cuma makan beberapa suap, katanya lagi nggak nafsu.",
+        "obat": "Obat tadi pagi belum diminum, Ibu lupa. Saya ingetin terus diminum.",
+        "gerak": "Tadi pagi Ibu terpeleset di kamar mandi, lututnya memar. Sekarang jalannya harus saya bantu.",
+        "harian": "Mandi sama ganti baju masih sendiri.",
+        "ingatan": "Ngobrolnya masih nyambung.",
+        "hati": "Ibu kelihatan capek, nggak banyak ngomong.",
+        "lain": "Ibu ngeluh lututnya sakit habis jatuh tadi."
+      },
+      "final_result": {
+        "makan": {
+          "level": 2,
+          "evidence": "cuma makan beberapa suap"
+        },
+        "obat": {
+          "level": 1,
+          "evidence": "Obat tadi pagi belum diminum"
+        },
+        "gerak": {
+          "level": 2,
+          "evidence": "jalannya harus saya bantu"
+        },
+        "harian": {
+          "level": 0,
+          "evidence": "Mandi sama ganti baju masih sendiri"
+        },
+        "ingatan": {
+          "level": 0,
+          "evidence": "Ngobrolnya masih nyambung"
+        },
+        "hati": {
+          "level": 1,
+          "evidence": "nggak banyak ngomong"
+        },
+        "umum": {
+          "level": 1,
+          "evidence": "lututnya sakit habis jatuh tadi"
+        },
+        "red_flags": [
+          {
+            "flag": "jatuh",
+            "evidence": "terpeleset di kamar mandi"
+          }
+        ]
+      }
+    }
+  }
+}

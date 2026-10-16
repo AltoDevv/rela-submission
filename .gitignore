@@ -1,0 +1,16 @@
+.env.local
+app/env.json
+build/
+.dart_tool/
+.DS_Store
+firebase/service-account.json
+/dist/
+__pycache__/
+*.pyc
+*.jks
+*.keystore
+**/key.properties
+**/service-account*.json
+firebase/google-services.json
+app/android/app/google-services.json
+app/lib/firebase_options.dart
